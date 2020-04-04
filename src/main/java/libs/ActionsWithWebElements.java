@@ -1,8 +1,8 @@
 package libs;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 public class ActionsWithWebElements {
@@ -14,57 +14,56 @@ public class ActionsWithWebElements {
         this.webDriver = webDriver;
     }
 
-    public void enterTextToTextFields(By element, String text) {
+    public void enterTextToTextFields(WebElement element, String text) {
         try {
-            webDriver.findElement(element).clear();
-            webDriver.findElement(element).sendKeys(text);
-            logger.info("");
+            element.clear();
+            element.sendKeys(text);
+            logger.info("Clicked ..");
         } catch (Exception ex) {
             ex.printStackTrace();
-            logger.error("");
+            logger.error("Something went wrong");
         }
     }
 
-    public void clickButton(By element) {
+    public void clickButton(WebElement element) {
         try {
-            webDriver.findElement(element).click();
-            logger.info("");
+            element.click();
+            logger.info("Clicked ..");
         } catch (Exception ex) {
             ex.printStackTrace();
-            logger.error("");
+            logger.error("Something went wrong");
         }
     }
 
 
-    public boolean isElementDisplayed(String element) {
+    public boolean isElementDisplayed(WebElement element) {
         try {
-            return webDriver.findElement(By.xpath(element)).isDisplayed();
+            return element.isDisplayed();
         } catch (Exception ex) {
             ex.printStackTrace();
-            logger.error("");
+            logger.error("Something went wrong");
             return false;
         }
     }
 
-    public void setCheckBox(By element, boolean state) {
+    public void setCheckBox(WebElement element, boolean state) {
         try {
-            if (webDriver.findElement(element).isSelected() != state) {
-                webDriver.findElement(element).click();
+            if (element.isSelected() != state) {
+                element.click();
             }
         } catch (Exception ex) {
             ex.printStackTrace();
-            logger.error("");
-            return;
+            logger.error("Something went wrong");
         }
     }
 
-    public void selectElementFromDD(By element, String itemName) {
-        Select dropDownValue = new Select(webDriver.findElement(element));
+    public void selectElementFromDD(WebElement element, String itemName) {
+        Select dropDownValue = new Select(element);
         try {
             dropDownValue.selectByVisibleText(itemName);
         } catch (Exception ex) {
             ex.printStackTrace();
-            logger.error("");
+            logger.error("Something went wrong");
         }
     }
 }

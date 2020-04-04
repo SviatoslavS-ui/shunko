@@ -1,45 +1,58 @@
 package pages;
 
-import libs.ActionsWithWebElements;
-import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
+import libs.ConfigClass;
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import parentPage.ParentPage;
 
-public class LoginPage {
+public class LoginPage extends ParentPage {
 
-    protected WebDriver webDriver;
-    protected Logger logger = Logger.getLogger(getClass());
-    protected ActionsWithWebElements actionsElements;
+    @FindBy(name = "_username")
+    private WebElement inputLoginName;
 
-    By inputLoginName = By.name("_username");
-    By inputPassword = By.name("_password");
-    By inputButtonXpath = By.xpath(".//button[@type='submit']");
-    String url = "http://v3.test.itpmgroup.com/login";
+    @FindBy(name = "_password")
+    private WebElement inputLoginPassword;
 
-    public LoginPage(WebDriver webDriver){
-        this.webDriver = webDriver;
-        actionsElements = new ActionsWithWebElements(webDriver);
+    @FindBy(xpath = ".//button[@type='submit']")
+    private WebElement inputButtonXpath;
+
+    @FindBy(xpath = ".//div[@class='login-box-body']")
+    private WebElement loginBox;
+
+    public LoginPage(WebDriver webDriver) {
+        super(webDriver);
     }
 
-    public void openPage(){
+    public void openPageLogin() {
         try {
-            webDriver.get(url);
-        }
-        catch (Exception ex){
+            webDriver.get(ConfigClass.getConfigValue("base_url") + "/login");
+            logger.info("Login page was opened");
+        } catch (Exception ex) {
             ex.printStackTrace();
+            logger.error("Cannot open file");
+            Assert.fail("Cannot open file");
         }
     }
 
-    public void inputLogin(String name){
+    public void inputLogin(String name) {
         actionsElements.enterTextToTextFields(inputLoginName, name);
     }
-    public void inputPassword(String text){
-        actionsElements.enterTextToTextFields(inputPassword, text);
+
+    public void inputPassword(String text) {
+        actionsElements.enterTextToTextFields(inputLoginPassword, text);
     }
-    public void clickSubmitButton(){
+
+    public void clickSubmitButton() {
         actionsElements.clickButton(inputButtonXpath);
     }
-    public void loginToPage(String login, String password){
+
+    public boolean isLoginBoxRefreshed() {
+        return actionsElements.isElementDisplayed(loginBox);
+    }
+
+    public void loginToPage(String login, String password) {
         inputLogin(login);
         inputPassword(password);
         clickSubmitButton();

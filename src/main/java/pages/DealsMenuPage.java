@@ -1,4 +1,4 @@
-package pages;
+/*package pages;
 
 import libs.ActionsWithWebElements;
 import libs.DealTimeAndDate;
@@ -13,13 +13,14 @@ public class DealsMenuPage {
     /* dealType - тип сделки */
     /* dealCustomer - покупатель */
     /* dealProvider - продавец */
-
+/*
     protected WebDriver webDriver;
     protected Logger logger = Logger.getLogger(getClass());
     protected ActionsWithWebElements actionsElements;
 
     String url = "http://v3.test.itpmgroup.com/deal";
        /* xPath locators for page elements */
+/*
     By dealType = By.xpath("//select[@id='deal_dealType']");
     By dealCustomer = By.xpath("//select[@id='deal_customer']");
     By dealProvider = By.xpath("//select[@id='deal_provider']");
@@ -46,41 +47,43 @@ public class DealsMenuPage {
     }
 
     public void chooseDealTimeAndDate(DealTimeAndDate dealTimeAndDate) {
-        actionsElements.selectElementFromDD(dealDateXPath, dealTimeAndDate.getDealDate());
-        actionsElements.selectElementFromDD(dealMonthXPath, dealTimeAndDate.getDealMonth());
-        actionsElements.selectElementFromDD(dealYearXPath, dealTimeAndDate.getDealYear());
-        actionsElements.selectElementFromDD(dealHourXPath, dealTimeAndDate.getDealHour());
-        actionsElements.selectElementFromDD(dealMinuteXPath, dealTimeAndDate.getDealMinute());
+      //  actionsElements.selectElementFromDD(dealDateXPath, dealTimeAndDate.getDealDate());
+      //  actionsElements.selectElementFromDD(dealMonthXPath, dealTimeAndDate.getDealMonth());
+     //   actionsElements.selectElementFromDD(dealYearXPath, dealTimeAndDate.getDealYear());
+     //   actionsElements.selectElementFromDD(dealHourXPath, dealTimeAndDate.getDealHour());
+     //  actionsElements.selectElementFromDD(dealMinuteXPath, dealTimeAndDate.getDealMinute());
     }
 
     public void chooseDealType(String dealTypeName) {
-        actionsElements.selectElementFromDD(dealType, dealTypeName);
+      //  actionsElements.selectElementFromDD(dealType, dealTypeName);
     }
 
     public void chooseDealCustomer(String dealCustomerName) {
-        actionsElements.selectElementFromDD(dealCustomer, dealCustomerName);
+      //  actionsElements.selectElementFromDD(dealCustomer, dealCustomerName);
     }
 
     public void chooseDealProvider(String dealProviderName) {
-        actionsElements.selectElementFromDD(dealProvider, dealProviderName);
+      //  actionsElements.selectElementFromDD(dealProvider, dealProviderName);
     }
 
     public void clickAddButton() {
-        actionsElements.clickButton(addButtonXPath);
-    }
+  //      actionsElements.clickButton(addButtonXPath);
+  //  }
 
     public void clickCreateButton() {
-        actionsElements.clickButton(createDealButtonXPath);
+       // actionsElements.clickButton(createDealButtonXPath);
     }
     /* метод добавляющий новую сделку */
+/*
     public void addNewDeal(DealTimeAndDate dealTimeAndDate, String dealTypeName, String dealCustomerName, String dealProviderName) {
-        clickAddButton();
-        chooseDealTimeAndDate(dealTimeAndDate);
-        chooseDealType(dealTypeName);
-        chooseDealCustomer(dealCustomerName);
-        chooseDealProvider(dealProviderName);
-        clickCreateButton();
+      //  clickAddButton();
+      //  chooseDealTimeAndDate(dealTimeAndDate);
+      //  chooseDealType(dealTypeName);
+      //  chooseDealCustomer(dealCustomerName);
+      //  chooseDealProvider(dealProviderName);
+      //  clickCreateButton();
     }
 
 
 }
+*/
