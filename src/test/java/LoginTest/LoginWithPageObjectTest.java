@@ -11,6 +11,7 @@ public class LoginWithPageObjectTest extends AbstractParentTest {
         loginPage.inputLogin("Student");
         loginPage.inputPassword("909090");
         loginPage.clickSubmitButton();
-        checkExpectedResult("Avatar is not present", homePage.isAvatarDisplayed());
+
+        checkExpectedResult("Logging succesfull", false);
     }
 }

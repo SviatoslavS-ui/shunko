@@ -1,9 +1,12 @@
 package libs;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+
+import java.util.List;
 
 public class ActionsWithWebElements {
 
@@ -18,7 +21,7 @@ public class ActionsWithWebElements {
         try {
             element.clear();
             element.sendKeys(text);
-            logger.info("Clicked ..");
+            logger.info("Text entered to field ..");
         } catch (Exception ex) {
             ex.printStackTrace();
             logger.error("Something went wrong");
@@ -51,6 +54,7 @@ public class ActionsWithWebElements {
             if (element.isSelected() != state) {
                 element.click();
             }
+            logger.info("The checkbox is"+state);
         } catch (Exception ex) {
             ex.printStackTrace();
             logger.error("Something went wrong");
@@ -66,4 +70,18 @@ public class ActionsWithWebElements {
             logger.error("Something went wrong");
         }
     }
+
+    /* возвращает строку из таблицы на учебном сайте
+    public String getTableRecord(int index) {
+        By table;
+        List<WebElement> rows = table.findElements(By.tagName("tr"));
+        return rows.get(index).getText();
+    }
+    // считает количество строк в таблице
+    public int countTableRows() {
+        By table;
+        List<WebElement> rows = table.findElements(By.tagName("tr"));
+        return rows.size();
+    } */
+
 }
