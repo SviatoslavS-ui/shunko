@@ -16,7 +16,7 @@ import pages.LoginPage;
 import java.util.concurrent.TimeUnit;
 
 public class AbstractParentTest {
-    WebDriver webDriver;
+    protected WebDriver webDriver;
     protected LoginPage loginPage;
     protected DealsMenuPage dealPage;
     protected HomePage homePage;

@@ -1,5 +1,8 @@
 package suits;
 
+import LoginTest.AddDealWithDealPageTest;
+import LoginTest.DeleteDealWithDealPageTest;
+import LoginTest.EditDealWithDealPageTest;
 import LoginTest.LoginWithPageObjectTest;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
@@ -8,7 +11,9 @@ import org.junit.runners.Suite;
 @Suite.SuiteClasses(
         {
                 LoginWithPageObjectTest.class,
-                LoginWithPageObjectTest.class
+                AddDealWithDealPageTest.class,
+                DeleteDealWithDealPageTest.class,
+                EditDealWithDealPageTest.class
         }
 )
 public class LoginSuite {

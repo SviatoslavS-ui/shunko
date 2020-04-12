@@ -1,0 +1,99 @@
+2020-11-04 12:35:56   INFO [pages.LoginPage] : Login page was opened
+2020-11-04 12:35:56   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-11-04 12:35:56   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-11-04 12:35:58   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-11-04 12:35:59   INFO [pages.DealsMenuPage] : Deals page was opened
+2020-11-04 12:36:00   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-11-04 12:36:02   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-11-04 12:36:02   INFO [pages.DealsMenuPage] : It seems deal added succesfully ...
+2020-11-04 12:36:03   INFO [libs.Utils] : ScreenShot: ..\shunko\target\screenshots\LoginTest\AddDealWithDealPageTestvalidAddDeal.jpg
+2020-11-04 15:20:45   INFO [pages.LoginPage] : Login page was opened
+2020-11-04 15:20:45   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-11-04 15:20:45   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-11-04 15:20:47   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-11-04 15:20:47   INFO [pages.DealsMenuPage] : Deals page was opened
+2020-11-04 15:20:49   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-11-04 15:20:49   INFO [pages.DealsMenuPage] : It seems deal 159 deleted succesfully ...
+2020-11-04 15:40:46   INFO [pages.LoginPage] : Login page was opened
+2020-11-04 15:40:46   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-11-04 15:40:46   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-11-04 15:40:47   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-11-04 15:40:48   INFO [pages.DealsMenuPage] : Deals page was opened
+2020-11-04 16:10:06   INFO [pages.LoginPage] : Login page was opened
+2020-11-04 16:10:06   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-11-04 16:10:06   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-11-04 16:10:07   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-11-04 16:10:08   INFO [pages.DealsMenuPage] : Deals page was opened
+2020-11-04 16:10:08   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-11-04 16:10:10   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-11-04 16:10:10   INFO [pages.DealsMenuPage] : It seems deal added succesfully ...
+2020-11-04 16:10:11   INFO [libs.Utils] : ScreenShot: ..\shunko\target\screenshots\LoginTest\AddDealWithDealPageTestvalidAddDeal.jpg
+2020-11-04 16:12:59   INFO [pages.LoginPage] : Login page was opened
+2020-11-04 16:12:59   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-11-04 16:12:59   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-11-04 16:13:00   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-11-04 16:13:01   INFO [pages.DealsMenuPage] : Deals page was opened
+2020-11-04 16:13:03   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-11-04 16:13:03   INFO [pages.DealsMenuPage] : It seems deal 159 deleted succesfully ...
+2020-11-04 16:36:24   INFO [pages.LoginPage] : Login page was opened
+2020-11-04 16:36:25   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-11-04 16:36:25   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-11-04 16:36:26   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-11-04 16:36:26   INFO [pages.DealsMenuPage] : Deals page was opened
+2020-11-04 16:36:27   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-11-04 16:36:29   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-11-04 16:36:29   INFO [pages.DealsMenuPage] : It seems deal added succesfully ...
+2020-11-04 16:36:29   INFO [libs.Utils] : ScreenShot: ..\shunko\target\screenshots\LoginTest\AddDealWithDealPageTestvalidAddDeal.jpg
+2020-11-04 16:37:29   INFO [pages.LoginPage] : Login page was opened
+2020-11-04 16:37:30   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-11-04 16:37:30   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-11-04 16:37:31   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-11-04 16:37:31   INFO [pages.DealsMenuPage] : Deals page was opened
+2020-11-04 16:37:32   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-11-04 16:37:32   INFO [pages.DealsMenuPage] : It seems deal 159 deleted succesfully ...
+2020-12-04 18:24:05   INFO [pages.LoginPage] : Login page was opened
+2020-12-04 18:24:05   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-12-04 18:24:06   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-12-04 18:24:07   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-12-04 18:24:07   INFO [pages.DealsMenuPage] : Deals page was opened
+2020-12-04 18:24:08   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-12-04 18:24:10   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-12-04 18:24:10   INFO [pages.DealsMenuPage] : It seems deal added succesfully ...
+2020-12-04 18:24:11   INFO [libs.Utils] : ScreenShot: ..\shunko\target\screenshots\LoginTest\AddDealWithDealPageTestvalidAddDeal.jpg
+2020-12-04 18:44:55   INFO [pages.LoginPage] : Login page was opened
+2020-12-04 18:44:55   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-12-04 18:44:56   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-12-04 18:44:57   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-12-04 18:44:57   INFO [pages.DealsMenuPage] : Deals page was opened
+2020-12-04 18:45:00   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-12-04 18:45:00   INFO [pages.DealsMenuPage] : It seems deal edited succesfully ...
+2020-12-04 18:45:00   INFO [libs.Utils] : ScreenShot: ..\shunko\target\screenshots\LoginTest\EditDealWithDealPageTestvalidEditDeal.jpg
+2020-12-04 18:48:26   INFO [pages.LoginPage] : Login page was opened
+2020-12-04 18:48:26   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-12-04 18:48:27   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-12-04 18:48:28   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-12-04 18:48:28   INFO [libs.Utils] : ScreenShot: ..\shunko\target\screenshots\LoginTest\LoginWithPageObjectTestvalidLogin.jpg
+2020-12-04 18:48:36   INFO [pages.LoginPage] : Login page was opened
+2020-12-04 18:48:36   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-12-04 18:48:36   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-12-04 18:48:37   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-12-04 18:48:38   INFO [pages.DealsMenuPage] : Deals page was opened
+2020-12-04 18:48:38   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-12-04 18:48:41   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-12-04 18:48:41   INFO [pages.DealsMenuPage] : It seems deal added succesfully ...
+2020-12-04 18:48:41   INFO [libs.Utils] : ScreenShot: ..\shunko\target\screenshots\LoginTest\AddDealWithDealPageTestvalidAddDeal.jpg
+2020-12-04 18:48:49   INFO [pages.LoginPage] : Login page was opened
+2020-12-04 18:48:49   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-12-04 18:48:49   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-12-04 18:48:50   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-12-04 18:48:51   INFO [pages.DealsMenuPage] : Deals page was opened
+2020-12-04 18:48:52   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-12-04 18:48:52   INFO [pages.DealsMenuPage] : It seems deal 161 deleted succesfully ...
+2020-12-04 18:49:00   INFO [pages.LoginPage] : Login page was opened
+2020-12-04 18:49:00   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-12-04 18:49:00   INFO [libs.ActionsWithWebElements] : Text entered to field ..
+2020-12-04 18:49:02   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-12-04 18:49:02   INFO [pages.DealsMenuPage] : Deals page was opened
+2020-12-04 18:49:04   INFO [libs.ActionsWithWebElements] : Clicked ..
+2020-12-04 18:49:04   INFO [pages.DealsMenuPage] : It seems deal edited succesfully ...
+2020-12-04 18:49:05   INFO [libs.Utils] : ScreenShot: ..\shunko\target\screenshots\LoginTest\EditDealWithDealPageTestvalidEditDeal.jpg
